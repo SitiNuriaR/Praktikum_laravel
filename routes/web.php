@@ -31,6 +31,6 @@ Route::get('percakapan', function () {
     return view('percakapan');
 });
 
-Route::get('pesan/kirim', function () {
-    return view('pesan_kirim');
+Route::post('percakapan/kirim', function () {
+    return view('percakapan_kirim');
 });
