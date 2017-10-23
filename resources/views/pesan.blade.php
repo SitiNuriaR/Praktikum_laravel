@@ -79,14 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Belajar Laravel
+                    Pesan
                 </div>
 
-                <div class="links">
-                    <a href="about">About</a>
-                    <a href="contact"> Contact</a>
-                    <a href="pesan">Pesan</a>
-					<a href="percakapan">Percakapan</a>
+                <div>
+                    Ada pesan ? Tulis <a href = '#'> disini </a>
                     
                 </div>
             </div>

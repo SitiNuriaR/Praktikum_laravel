@@ -79,15 +79,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Belajar Laravel
+                    Percakapan
                 </div>
-
-                <div class="links">
-                    <a href="about">About</a>
-                    <a href="contact"> Contact</a>
-                    <a href="pesan">Pesan</a>
-					<a href="percakapan">Percakapan</a>
-                    
+				{!! Form::open(array('url'=>'pesan/kirim','method'=>'POST')) !!}
+                <div>
+					<b> Percakapan </b>
+                    {!! Form::text('pesan', null, array('placeholder' => 'Tuliskan pesan', 'class' => 'form_control')) !!}
+					<button type = "submit" class ="btn btn-primary"> Send </button>
                 </div>
             </div>
         </div>
