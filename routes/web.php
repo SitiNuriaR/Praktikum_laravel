@@ -34,3 +34,15 @@ Route::get('percakapan', function () {
 Route::post('percakapan/kirim', function () {
     return view('percakapan_kirim');
 });
+
+Route::get('template', function () {
+    return view('coba1');
+});
+
+Route::get('coba1', function () {
+    return view('coba2');
+});
+
+Route::get('coba2', function () {
+    return view('coba');
+});

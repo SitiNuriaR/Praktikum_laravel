@@ -87,6 +87,7 @@
                     <a href="contact"> Contact</a>
                     <a href="pesan">Pesan</a>
 					<a href="percakapan">Percakapan</a>
+					<a href="template"> Template </a>
                     
                 </div>
             </div>
